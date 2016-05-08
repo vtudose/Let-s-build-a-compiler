@@ -11,7 +11,7 @@ for i in $(seq 1 16); do
 
 	if [ ! -f $file ];
 	then
-		wget $URL""$i
+		wget $URL""$file
 	fi
 
 	cd ..
